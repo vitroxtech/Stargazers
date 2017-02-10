@@ -9,6 +9,7 @@ import vitrox.squaring.stargazers.DependencyInjection.Component.DaggerActivityCo
 
 public class BaseActivity extends AppCompatActivity {
     private ActivityComponent mComponent;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -42,7 +42,7 @@ public class MainActivity extends BaseActivity {
         setContentView(R.layout.activity_main);
         getComponent().inject(this);
         Button mGoButton = (Button) findViewById(R.id.search_button);
-         mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        mRecyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         userEditText = (EditText) findViewById(R.id.user_edittext);
         repoEditText = (EditText) findViewById(R.id.repo_edittext);
         progressBar = (ProgressBar) findViewById(R.id.spinner);

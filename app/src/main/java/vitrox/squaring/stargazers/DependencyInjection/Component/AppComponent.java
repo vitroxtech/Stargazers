@@ -4,9 +4,8 @@ import android.content.Context;
 
 import com.squareup.okhttp.OkHttpClient;
 
-import java.util.List;
-
 import javax.inject.Singleton;
+
 
 import dagger.Component;
 import vitrox.squaring.stargazers.Adapters.StargazersAdapter;
